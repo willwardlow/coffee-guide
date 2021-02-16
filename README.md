@@ -93,7 +93,7 @@ Tell us how long you anticipate spending on each area of development. Be sure to
 | Creating JSX Components  | H| 10hrs | | |
 | Troubleshooting and Debugging | L | 6hrs| | |
 | CSS Styling | M | 2.5hrs | |
-| Total | H | 24hrs| 5hrs | 5hrs |
+| Total | H | 24hrs| | |
 
 ## SWOT Analysis
 
