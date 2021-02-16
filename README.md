@@ -9,7 +9,7 @@ The Brown Book - A Guide on All Things Coffee
 The coffee drinking travel guide is an all in one app that provides information on various coffees. Coffee brewing methods are provided as well as information on various roasteries and blends. Users can contribute their own ratings on their favorite coffee blends. 
 
 ## Wireframes
-Home Page - Desktop: (https://github.com/willwardlow/coffee-guide/blob/main/project-2-wireframe-home-desktop.png)
+![Home Page - Desktop]: (https://github.com/willwardlow/coffee-guide/blob/main/project-2-wireframe-home-desktop.png)
 
 Home Page - Mobile: (https://github.com/willwardlow/coffee-guide/blob/main/project-2-wireframe-mobile.png)
 
