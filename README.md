@@ -62,8 +62,9 @@ The functionality will then be divided into two separate lists: MVP and PostMVP.
 
 #### PostMVP  
 
-- Implement geotagging, allow users to provide location of the roastery's respective location. Or provide location via Google Maps
-- A comment section, where users can comment on other user's submission.
+- Implement geotagging, allow users to provide location of the roastery's respective location. Or provide location via Google Maps.
+- Expand reviews, not just coffees, but cafes.
+- A comment section, where users can comment on other user's submissions.
 
 ## Project Schedule
 
@@ -83,28 +84,25 @@ This schedule will be used to keep track of your progress throughout the week an
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | H | 2hrs|  | |
-| Working with API (axios requests) | H | 3hrs| | |
-| Creating JSX Components  | H| 10hrs | | |
+| Working with API (axios requests - get and post) | H | 3hrs| | |
+| Creating JSX Components - Home / Nav, How To, Coffee Reviews, and Form  | H| 12hrs | | |
 | Troubleshooting and Debugging | L | 6hrs| | |
-| CSS Styling | M | 2.5hrs | |
-| Total | H | 24hrs| | |
+| CSS Styling | M | 7hrs | |
+| Total | H | 30hrs| | |
 
 ## SWOT Analysis
 
 ### Strengths: 
-Pseudocoding and planning app fucnctionality. 
+Pseudocoding and planning app fucnctionality. I can create a clear plan of how I want the app to function and appear and can plan accordingly. 
 
 ### Weaknesses: 
-CSS and Designing layout that is appealing to users not myself.
+CSS and Designing layout that is appealing to users not myself. I can take in account of the user experience in the planning and CSS, rather than before when I just want the functions to appear on the screen.
 
 ### Opportunities: 
-Effectively timeboxing errors and seeking assistance sooner than later.
+Effectively timeboxing errors and seeking assistance sooner than later. Looking back on the Mad-Libs project, I spent more than time than necessary to fix bugs on my own rather than asking for assistance or a fresh pair of eyes to look at my code. 
 
 ### Threats: 
-Effectively apply React knowledge gained in the past 1.5 weeks.
+Effectively apply React knowledge gained in the past 1.5 weeks. The comfort in React may not be where I want it to be when taking on this project, and that is the source of the threat. Leveraging the strength in planning and pseudocoding and applying some research in components (functions vs class) can increase my comfort and in turn, confidence.
