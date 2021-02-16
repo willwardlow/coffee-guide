@@ -6,7 +6,7 @@ The Brown Book - A Guide on All Things Coffee
 
 ## Project Description
 
-The coffee drinking travel guide is an all in one app that provides information on various coffees. Coffee brewing methods are provided as well as information on various roasteries and blends. Users can contribute their own ratings on their favorite coffee blends. 
+The Brown Book is an all in one app that provides information on various coffees. Coffee brewing methods are provided as well as information on various roasteries and blends. Users can contribute their own ratings on their favorite coffee blends. 
 
 ## Wireframes
 Home Page - Desktop
@@ -55,7 +55,7 @@ API Sample from Airtable
 The functionality will then be divided into two separate lists: MVP and PostMVP.  Carefully decide what is placed into your MVP, as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
-- Find, user and parse data from an external API
+- Find, use, and parse data from an external API
 - Render data on page via various components. 
 - Display information on page(s).
 - Allow user to submit their own coffee reviews. User submission will populate on page.
@@ -72,8 +72,8 @@ This schedule will be used to keep track of your progress throughout the week an
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Feb 13-15| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Feb 16| Project Approval | Incomplete
+|Feb 13-15| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|Feb 16| Project Approval | Complete
 |Feb 17| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Feb 17| Pseudocode| Incomplete
 |Feb 18| JSX Components | Incomplete 
