@@ -1,0 +1,49 @@
+.App {
+  display: flex;
+  flex-flow: column;
+  text-align: right;
+  max-width: 1400px;
+}
+
+.header{
+  display: grid;
+  grid-template-areas: 
+  'T S L';
+  margin-bottom: 10px;
+  max-height: 100px;
+  margin-top: 10px;
+  background-color: black;
+}
+
+#title {
+  text-align: left;
+  grid-area: T;
+  
+}
+
+nav {
+  display: inline-block;
+  align-content: center;
+}
+.links {
+  display: inline-flex;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  max-width: 100px;
+  max-height: 100px;
+  background-color: white;
+  font-size: 18px;
+  position: relative;
+  top: 10%;
+  border-right: 1px solid black;
+  
+}
+
+.footer {
+  max-height: 50px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+
