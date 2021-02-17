@@ -1,0 +1,11 @@
+.intro {
+  width: 800px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.methods-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
