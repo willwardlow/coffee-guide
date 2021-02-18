@@ -1,0 +1,12 @@
+.coffee-container {
+  max-width: 800px;
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.coffees-intro {
+  text-align: center;
+}

@@ -1,0 +1,14 @@
+img {
+  width: 150px;
+  margin-top: 10px;
+}
+
+.coffee { 
+  width: 170px;
+  font-size: 10px;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid black;
+  padding-bottom: 10px;
+  margin: 10px;
+}

@@ -18,7 +18,7 @@ function HowTo(props) {
           <p>{props.method.description}</p>
           <ol className='instructions'>
           {props.method.instructions.map((step, index) => (
-             <li>{step}</li>
+            <li key={index}>{step}</li>
           ))}
           </ol>
           </div>}

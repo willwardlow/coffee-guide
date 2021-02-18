@@ -31,7 +31,7 @@ function Home() {
     <main>
       <div className='intro'>
         <p>The Brown Book provides information on all-things coffee related. There's information on how to brew depending on the method as well as information on certain roasts. Users can read reviews as well as submit reviews on their own. </p>
-        <blockquote className='coffee-quote'>
+        <blockquote className='coffee-quotel'>
           {quotes[Math.floor(Math.random()*quotes.length)]}
         </blockquote>
       </div>
