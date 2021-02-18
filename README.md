@@ -74,8 +74,8 @@ This schedule will be used to keep track of your progress throughout the week an
 |---|---| ---|
 |Feb 13-15| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |Feb 16| Project Approval | Complete
-|Feb 17| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Feb 17| Pseudocode| Incomplete
+|Feb 17| Core Application Structure (HTML, CSS, etc.) | Complete
+|Feb 17| Pseudocode| Complete
 |Feb 18| JSX Components | Incomplete 
 |Feb 18-19| Initial Clickable Model  | Incomplete
 |Feb 20| CSS and Responsive Design | Incomplete
@@ -86,11 +86,10 @@ This schedule will be used to keep track of your progress throughout the week an
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 2hrs|  | |
 | Working with API (axios requests - get and post) | H | 3hrs| | |
-| Creating JSX Components - Home / Nav, How To, Coffee Reviews, and Form  | H| 12hrs | | |
+| Creating JSX Components - Home / Nav, How To, Coffee Reviews, and Form  | H| 14hrs | 10hrs| |
 | Troubleshooting and Debugging | L | 6hrs| | |
-| CSS Styling | M | 7hrs | |
+| CSS Styling | M | 7hrs | 1hrs | |
 | Total | H | 30hrs| | |
 
 ## SWOT Analysis
