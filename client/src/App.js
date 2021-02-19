@@ -1,4 +1,6 @@
+import axios from 'axios'
 import { Link, Route } from 'react-router-dom'
+import { useState, useEffect} from 'react'
 import { baseURL, config } from './services';
 import './App.css';
 import Nav from './components/Nav'
@@ -9,6 +11,24 @@ import Coffees from './components/Coffees';
 
 
 function App() {
+
+  const [coffees, setCoffees] = useState([])
+  const [toggleFetch, setToggleFetch] = useState(false)
+
+  useEffect(() => {
+    const brewCoffees = async () => {
+      const config = {
+        headers: {
+          Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
+        },
+      };
+      const resp = await axios.get(baseURL, config);
+      setCoffees(resp.data.records)
+      console.log(resp.data.records);
+    };
+    brewCoffees();
+  }, [toggleFetch])
+
   return (
     <div className="App">
       <Nav />
@@ -18,11 +38,11 @@ function App() {
       </Route>
        
       <Route exact path='/coffees'>
-        <Coffees />
+        <Coffees coffees={coffees}/>
       </Route>
 
       <Route exact path='/new'>
-        <Form />
+        <Form coffees={coffees} setToggleFetch={setToggleFetch}/>
       </Route>
 
       <Footer />

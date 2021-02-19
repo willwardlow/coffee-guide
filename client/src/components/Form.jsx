@@ -39,7 +39,7 @@ function Form(props) {
 
   return (
 
-    <form onSubmit={handleSubmit}>
+    <form className='submit-form'onSubmit={handleSubmit}>
       <label htmlFor='name' > Name: </label>
       <input type='text' placeholder='Enter name' value={name} onChange={(e) => setName(e.target.value)}/>
       
