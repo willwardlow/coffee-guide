@@ -7,13 +7,13 @@ function Nav() {
       <h2 id='title'> The Brown Book </h2>
       <nav className='nav'>
         <div className='links'>
-          <Link  to='/'> Coffee Basics </Link>
+          <Link  to='/'> Home </Link>
         </div>
         <div className='links'>
-          <Link to='/coffees'>Read About Coffee </Link>
+          <Link to='/coffees'> Entries </Link>
         </div>
         <div className='links'>
-          <Link to='/new'>Submit A Review</Link>
+          <Link to='/new'>New Entry</Link>
         </div>
       </nav>
     </header>

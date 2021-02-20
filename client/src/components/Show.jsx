@@ -1,4 +1,5 @@
 import './Show.css'
+import {Link} from 'react-router-dom'
 
 function Show(props) {
 
@@ -7,8 +8,11 @@ function Show(props) {
         <img src={props.coffee.fields.image} alt={props.coffee.fields.name}/>
         <h2> {props.coffee.fields.name}</h2>
         <h3> {props.coffee.fields.roaster}</h3>
-        {/* Button To link to /:id */}
-        <button>Read More</button>
+      {/* Button To link to /:id */}
+      <Link to={`coffees/${props.coffee.id}`} key={props.coffee.fields.name}>
+        <button>More Info</button>
+      </Link>
+        
       </div>
     
   )

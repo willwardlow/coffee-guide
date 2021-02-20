@@ -1,0 +1,44 @@
+.form-container{
+  display: grid;
+  grid-template-areas: 
+  "L I"
+  "L I"
+  "L I"
+  "L I"
+  "L I"
+  "L I"
+  "L I";
+  flex-flow: column;
+  text-align: left;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  position: relative;
+  left: 30%;
+  top: 50px;
+  margin-bottom: 20px;
+}
+
+label{
+  display: inline-block;
+  grid-area: L;
+  width: 150px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+input{
+  width: 200px;
+  grid-area: I;
+}
+
+#submit { 
+  position: relative;
+  left: 20%;
+  top: 5%;
+}
+
+select {
+  margin-right: 20%;
+}
+

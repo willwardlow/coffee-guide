@@ -9,13 +9,13 @@ import './Coffees.css'
 function Coffees(props) {
 
   return (
-    <Route to='/coffees'>
+    <Route path='/coffees'>
       <div>
         <div className='coffees-intro'>
           <p> Browse the list to discover a new favorite!</p>
         </div>
         <div className='coffee-container'>
-        {props.coffees.map((coffee) => (
+          {props.coffees.map((coffee) => (
           <Show key={coffee.id} coffee={coffee}  />
         ))}
           <New />
