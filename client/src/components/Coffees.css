@@ -10,3 +10,15 @@
 .coffees-intro {
   text-align: center;
 }
+
+.button{
+  position: relative;
+  top: 27%;
+}
+
+@media only screen and (max-width: 500px){
+
+  #new {
+    border-style: none;
+  }
+}

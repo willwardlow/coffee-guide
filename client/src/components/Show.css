@@ -1,5 +1,6 @@
 img {
   width: 150px;
+  height: 150px;
   margin-top: 10px;
 }
 
@@ -11,4 +12,10 @@ img {
   border: 2px solid black;
   padding-bottom: 10px;
   margin: 10px;
+}
+
+@media only screen and (max-width: 500px){
+  img {
+    display: none;
+  }
 }

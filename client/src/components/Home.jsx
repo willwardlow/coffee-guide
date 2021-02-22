@@ -1,5 +1,6 @@
 import HowTo from './HowTo';
-import './Home.css'
+import ReactPlayer from 'react-player'
+import './Home.css';
 
 function Home() {
 
@@ -39,6 +40,15 @@ function Home() {
         <HowTo id='french-press' method={frenchPress} />
         <HowTo id='aero-press' method={aeroPress} />
         <HowTo id='pour-over' method={pourOver} />
+      </div>
+      {/* ReactPlayer is a module that renders videos from links: attained here: https://www.npmjs.com/package/react-player */}
+      <div className='video-container'>
+        <p> Check out the video below to learn about other methods in greater detail: </p>
+      <ReactPlayer className='video'
+        url="https://www.youtube.com/watch?v=RN-vzamHLGs&ab_channel=Wirecutter"
+        config={{ controls: true }}
+        width='500px'
+        height='300px' />
       </div>
       
     

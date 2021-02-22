@@ -8,6 +8,7 @@ import Home from './components/Home';
 import Footer from './components/Footer';
 import Form from './components/Form'
 import Coffees from './components/Coffees';
+import More from './components/More';
 
 
 function App() {
@@ -36,7 +37,7 @@ function App() {
       <Route exact path='/'>
         <Home />
       </Route>
-       
+      
       <Route exact path='/coffees'>
         <Coffees coffees={coffees}/>
       </Route>
@@ -45,6 +46,9 @@ function App() {
         <Form coffees={coffees} setToggleFetch={setToggleFetch}/>
       </Route>
 
+      <Route path='/coffees/:id'>
+        <More coffees={coffees} />
+      </Route>
       <Footer />
     </div>
   );

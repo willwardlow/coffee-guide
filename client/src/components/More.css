@@ -1,0 +1,38 @@
+.more-info{
+  display: grid;
+  grid-template-areas: 
+  "I T"
+  "I T"
+  "I T"
+  "I T"
+  "I T";
+  text-align: left;
+  margin-left: 10%;
+  width: 60%;
+  height: 10%;
+}
+
+.more-info a {
+  color: black;
+}
+
+.more-info img {
+  grid-area: I;
+  justify-self: center;
+}
+
+.more-info button {
+  width: 40%;
+  height: 100%;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.more-info p {
+  margin-bottom: 0;
+}
+
+.more-info span {
+  font-weight: bold;
+  margin-left: 10px;
+}

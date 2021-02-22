@@ -10,7 +10,7 @@ function Show(props) {
         <h3> {props.coffee.fields.roaster}</h3>
       {/* Button To link to /:id */}
       <Link to={`coffees/${props.coffee.id}`} key={props.coffee.fields.name}>
-        <button>More Info</button>
+        <button >More Info</button>
       </Link>
         
       </div>

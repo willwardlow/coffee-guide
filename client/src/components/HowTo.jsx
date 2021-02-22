@@ -12,7 +12,7 @@ function HowTo(props) {
       <img className='method-image' src={props.method.imageUrl} alt={props.method.name} />
       <h4>{props.method.name}</h4>
       
-      <button className='more-trigger' button onClick={() =>setShowMore(!showMore)}> Read More </button>
+      <button className='more-trigger' onClick={() =>setShowMore(!showMore)}> Read More </button>
       {(showMore === false) ? null :
         <div className='methods-more'>
           <p>{props.method.description}</p>

@@ -44,6 +44,7 @@ function Form(props) {
 
         <label className='roast' htmlFor='roast' > Roast: </label>
         <select className='roast' onChange={(e) => setRoast(e.target.value)}>
+          <option>Select</option>
           <option value={roast} >Dark</option>
           <option value={roast} >Medium</option>
           <option value={roast} >Light</option>
