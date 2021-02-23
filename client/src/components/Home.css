@@ -65,7 +65,45 @@
 
 @media only screen and (max-width: 500px) {
   .video {
-    width: 200px;
-    height: 200px;
+    position: relative;
+    right: 30%;
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .intro{
+    width: 70%;
+    height: 30%;
+  }
+
+  .methods-container{
+    position: relative;
+    left: 10%;
+  }
+
+  .video-container{
+    margin-left: 0px;
+  }
+
+  .video-container p {
+    text-align: center;
+    position: relative;
+    left: 30%;
+    width: 70%;
+  }
+
+  .video {
+    width: 10%;
+  }
+
+  .video-container{
+    position: relative;
+    width: 300px;
+  }
+
+  .video-container p {
+    text-align: center;
   }
 }

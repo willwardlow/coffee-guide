@@ -32,13 +32,39 @@ input{
   grid-area: I;
 }
 
+input:active {
+  background-color: #dcab6b;
+}
+
 #submit { 
   position: relative;
   left: 20%;
   top: 5%;
 }
 
+#submit:hover{
+  background-color: #6a381f;
+}
+
 select {
   margin-right: 20%;
+}
+
+select:active{
+  background-color: #dcab6b;
+}
+
+option{
+  background-color: black;
+}
+
+@media screen and (max-width: 500px) {
+
+  .form-container{
+    position: relative;
+    left: 5%;
+    width: 400px;
+  }
+
 }
 

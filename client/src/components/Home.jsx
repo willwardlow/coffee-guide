@@ -47,8 +47,8 @@ function Home() {
       <ReactPlayer className='video'
         url="https://www.youtube.com/watch?v=RN-vzamHLGs&ab_channel=Wirecutter"
         config={{ controls: true }}
-        width='500px'
-        height='300px' />
+        width='100%'
+        height='100%' />
       </div>
       
     

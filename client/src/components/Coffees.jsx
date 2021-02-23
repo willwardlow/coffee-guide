@@ -1,6 +1,5 @@
 import axios from 'axios';
-import {Link , Route} from 'react-router-dom'
-import { useState, useEffect } from 'react';
+import {Route} from 'react-router-dom'
 import New from './New'
 import Show from './Show.jsx';
 import './Coffees.css'

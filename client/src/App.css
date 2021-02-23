@@ -77,6 +77,10 @@ div a:hover {
   text-decoration: underline;
 }
 
+div a:active{
+  color: #dcab6b;
+}
+
 p, blockquote {
   font-family: 'PT Sans', sans-serif;
   font-size: 18px;
@@ -116,11 +120,31 @@ blockquote{
   color: white;
 }
 
-@media only screen and (max-width: 700px){
+@media screen and (max-width: 700px){
   .links {
     position: relative;
     right: 10%;
   };
+}
+
+@media screen and (max-width: 500px) {
+  .links {
+    position: relative;
+    right: 20%;
+    font-size: 16px;
+  };
+
+  header{
+    font-size: 16px;
+  }
+
+  .intro {
+    position: relative;
+    right: 8%;
+  }
+
+
+
 }
 
 

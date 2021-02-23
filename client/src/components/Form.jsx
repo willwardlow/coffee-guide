@@ -59,7 +59,7 @@ function Form(props) {
         <label  htmlFor='location' > Location: </label>
         <input  type='text' placeholder='City, State' value={location} onChange={(e) => setLocation(e.target.value)} />
       
-        <label  htmlFor='info'> Enter More Info:</label> 
+        <label  htmlFor='info'> Coffee Website:</label> 
         <input  type='text' placeholder='Coffee URL' value={info} onChange={(e) => setInfo(e.target.value)} />
 
         <input id='submit'type='submit'></input>

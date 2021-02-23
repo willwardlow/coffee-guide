@@ -28,6 +28,10 @@
   margin-left: 10px;
 }
 
+.more-info button:hover {
+  background-color: #6a381f;
+}
+
 .more-info p {
   margin-bottom: 0;
 }
@@ -35,4 +39,25 @@
 .more-info span {
   font-weight: bold;
   margin-left: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .more-info{
+    grid-template-areas: 
+    "I1"
+    "I2"
+    "I3"
+    "I4"
+    "I5"
+    "B";
+  }
+
+  .more-info button {
+    grid-area: B;
+    width: 50%;
+    height: 55%;
+    font-size: 12px;
+  }
+
+
 }
