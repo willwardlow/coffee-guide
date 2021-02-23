@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { Link, Route } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 import { useState, useEffect} from 'react'
 import { baseURL, config } from './services';
 import './App.css';
@@ -25,7 +25,6 @@ function App() {
       };
       const resp = await axios.get(baseURL, config);
       setCoffees(resp.data.records)
-      console.log(resp.data.records);
     };
     brewCoffees();
   }, [toggleFetch])

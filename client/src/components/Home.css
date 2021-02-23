@@ -13,11 +13,20 @@
   margin-left: 5%;
 }
 
+.video-container{
+  width: 600px;
+  height: 300px;
+  text-align: center;
+}
 .video {
   position: relative; 
   left: 20%;
   top: 20px;
   display: block;
+}
+
+p {
+  text-align: center;
 }
 
 @media only screen and (max-width: 850px) {

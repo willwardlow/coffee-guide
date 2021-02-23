@@ -42,8 +42,8 @@ function Home() {
         <HowTo id='pour-over' method={pourOver} />
       </div>
       {/* ReactPlayer is a module that renders videos from links: attained here: https://www.npmjs.com/package/react-player */}
+      <p> Check out the video below to learn about other methods in greater detail: </p>
       <div className='video-container'>
-        <p> Check out the video below to learn about other methods in greater detail: </p>
       <ReactPlayer className='video'
         url="https://www.youtube.com/watch?v=RN-vzamHLGs&ab_channel=Wirecutter"
         config={{ controls: true }}
